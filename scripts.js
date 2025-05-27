@@ -45,9 +45,9 @@ function addToCart(productId) {
 
 // ----- New Arrivals Mock Data -----
 const newArrivals = [
-  { id: 5, name: "Urban Racer", price: "$110", image: "new-shoe1.png" },
-  { id: 6, name: "Swift Glide", price: "$130", image: "new-shoe2.png" },
-  { id: 7, name: "Metro Flex", price: "$120", image: "new-shoe3.png" }
+  { id: 5, name: "Urban Racer", price: "$110", image: "urban-racer.png" },
+  { id: 6, name: "Swift Glide", price: "$130", image: "swift-glide.png" },
+  { id: 7, name: "Metro Flex", price: "$120", image: "metro-flex.png" }
 ];
 
 // ----- Recommended Products Mock Data -----
