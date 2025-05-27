@@ -52,9 +52,9 @@ const newArrivals = [
 
 // ----- Recommended Products Mock Data -----
 const recommendedProducts = [
-  { id: 8, name: "Air Comfort Max", price: "$100", image: "rec-shoe1.png" },
-  { id: 9, name: "Pulse Sneakers", price: "$140", image: "rec-shoe2.png" },
-  { id: 10, name: "Stride Runner", price: "$125", image: "rec-shoe3.png" }
+  { id: 8, name: "Air Comfort Max", price: "$100", image: "air-comfort.png" },
+  { id: 9, name: "Pulse Sneakers", price: "$140", image: "pulse-sneakers.png" },
+  { id: 10, name: "Stride Runner", price: "$125", image: "stride-runner.png" }
 ];
 
 // ----- Function to Render Product Cards -----
