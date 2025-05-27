@@ -1,0 +1,368 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.search-bar input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.icons img {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 0; /* Increased vertical padding */
+    background: url("featured\ shoe.png") no-repeat center center;
+    background-size: cover;
+    color: white;
+    min-height: 500px; /* Ensure the section is tall enough to show more of the image */
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #f97316;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  max-width: 80%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Offer Section */
+.offer {
+  background-color: #f97316;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+/* Trending & New Arrivals */
+.trending, .new-arrivals {
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Referral Section */
+.referral {
+  background-color: #ececec;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Live Chat Section */
+.live-chat {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#chat-button {
+  background-color: #0084ff;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Services Section */
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.services .service {
+  font-size: 18px;
+}
+
+/* Products Section */
+.products {
+  padding: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.product-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.product-card p.price {
+  color: #f97316;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.product-card button {
+  background-color: #f97316;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Newsletter Section */
+.newsletter {
+  background-color: #f5f5f5;
+  padding: 40px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #f97316;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Testimonial Section */
+.testimonials {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.testimonial p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.testimonial h4 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #f97316;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.footer-links h3,
+.footer-social h3,
+.footer-contact h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    color: #f97316;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 5px;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* Payment Icons Section */
+.payment-icons {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 0;
+    background-color: #333;
+}
+
+.payment-icons h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.payment-icons img {
+    width: 50px;
+    height: auto;
+    margin: 5px;
+    filter: brightness(90%);
+}
