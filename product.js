@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <img src="${product.image}" alt="${product.name}">
           <h3>${product.name}</h3>
           <p class="price">${product.price}</p>
-          <a href="SingleP.html?id=${product.id}">
+          <a href="Product Page.html?id=${product.id}">
             <button>View Details</button>
           </a>
         `;
