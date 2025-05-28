@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Air Max",
+    "price": "$120",
+    "description": "High-performance running shoes with exceptional comfort.",
+    "image": "./air-max.png"
+  },
+  {
+    "id": 2,
+    "name": "UltraBoost",
+    "price": "$140",
+    "description": "Energy-return technology for the best walking and running experience.",
+    "image": "./ultra-boost.png"
+  },
+  {
+    "id": 3,
+    "name": "Stride Runner",
+    "price": "$100",
+    "description": "Lightweight sneakers built for speed and flexibility.",
+    "image": "./stride-runner.png"
+  }
+]
