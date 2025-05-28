@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // Get Product ID from URL
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get("id");
 
+    // Fetch JSON Data
     fetch("products.json")
         .then(response => response.json())
         .then(products => {
