@@ -8,7 +8,7 @@
   },
   {
     "id": 2,
-    "name": "Ultra Boost",
+    "name": "Ultra Boost Pro",
     "price": "$140",
     "description": "Energy-return technology for the best walking and running experience.",
     "image": "./ultra-boost.png"
@@ -16,7 +16,7 @@
   {
     "id": 3,
     "name": "Stride Runner",
-    "price": "$100",
+    "price": "$125",
     "description": "Lightweight sneakers built for speed and flexibility.",
     "image": "./stride-runner.png"
   }
