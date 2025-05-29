@@ -1,6 +1,6 @@
 // ----- Product Mock Data -----
 const products = [
-  { id: 1, name: "Air Max", price: "$120", image: "air-max.png" },
+  { id: 1, name: "Air Max Pro", price: "$120", image: "air-max pro.png" },
   { id: 2, name: "Ultraboost", price: "$140", image:"ultra-boost.png" },
   { id: 3, name: "RS-X", price: "$100", image: "RS-X.png" },
   { id: 4, name: "Classic", price: "$90", image: "classic.png" }
