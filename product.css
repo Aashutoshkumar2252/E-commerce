@@ -129,3 +129,82 @@ main {
 .product-card button:hover {
   background-color: #d86405;
 }
+
+/* About Us Section */
+.about-us {
+  max-width: 850px;
+  margin: 50px auto;
+  padding: 50px;
+  background: linear-gradient(135deg, #ffffff, #f8f8f8);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-us:hover {
+  transform: translateY(-5px);
+}
+
+.about-us h2 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* About Content */
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 350px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.about-text:hover {
+  transform: scale(1.03);
+}
+
+.about-text h3 {
+  font-size: 26px;
+  margin-bottom: 12px;
+  color: #f97316;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-text li {
+  font-size: 16px;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  color: #444;
+}
+
+.about-text li::before {
+  content: "✔";
+  color: #f97316;
+  font-weight: bold;
+  margin-right: 10px;
+}
