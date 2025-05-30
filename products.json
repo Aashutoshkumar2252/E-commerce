@@ -15,6 +15,55 @@
   },
   {
     "id": 3,
+    "name": "RS-x",
+    "price": "$100",
+    "description": "A bold, retro-futuristic sneaker with superior cushioning and shock absorption for everyday comfort.",
+    "image": "./RS-X.png"
+  },
+  {
+    "id": 4,
+    "name": "Classic",
+    "price": "$90",
+    "description": "A timeless low-profile sneaker with a sleek design, perfect for versatile casual wear.",
+    "image": "./classic.png"
+  },
+  {
+    "id": 5,
+    "name": "Urban Racer",
+    "price": "$110",
+    "description": "Designed for athletes who demand speed and agility.",
+    "image": "./urban-racer.png"
+  },
+  {
+    "id": 6,
+    "name": "Swift Glide",
+    "price": "$130",
+    "description": "Durable shoes for rugged terrains and outdoor adventures.",
+    "image": "./swift-glide.png"
+  },
+  {
+    "id": 7,
+    "name": "Metro Flex",
+    "price": "$120",
+    "description": "Stylish and comfortable shoes for everyday urban wear.",
+    "image": "./metro-flex.png"
+  },
+  {
+    "id": 8,
+    "name": "Air Comfort Max",
+    "price": "$100",
+    "description": "Flexible design for natural movement and comfort.",
+    "image": "./air-comfort.png"
+  },
+  {
+    "id": 9,
+    "name": "Pulse Sneakers",
+    "price": "$140",
+    "description": "Engineered for maximum performance and support.",
+    "image": "./pulse-sneakers.png"
+  },
+  {
+    "id": 10,
     "name": "Stride Runner",
     "price": "$125",
     "description": "Lightweight sneakers built for speed and flexibility.",
