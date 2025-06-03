@@ -3,14 +3,14 @@
     "id": 1,
     "name": "Air Max",
     "price": "$120",
-    "description": "High-performance running shoes with exceptional comfort.",
+    "description": "Superior Comfort: Features advanced cushioning technology that provides excellent shock absorption and minimizes impact, ensuring smooth strides.\nBreathable Design: The lightweight mesh upper enhances airflow, keeping your feet cool and comfortable even during intense workouts.\nDurable Build: Made from high-quality materials, offering long-lasting durability and resistance to wear and tear.\nOptimal Traction: The ergonomic sole design ensures superior grip and stability, making it perfect for both running and casual wear.\nStylish & Versatile: Combines modern aesthetics with functional performance, making it suitable for both sports and everyday fashion.\nEnergy-Boosting Performance: Designed to reduce fatigue and improve efficiency, helping runners maintain their best pace effortlessly.",
     "image": "./air-max.png"
   },
   {
     "id": 2,
     "name": "Ultra Boost Pro",
     "price": "$140",
-    "description": "Energy-return technology for the best walking and running experience.",
+    "description": "- Energy-Return Technology: Designed with high-performance cushioning, providing exceptional responsiveness and boosting energy with every step.\n- Ultimate Comfort: Features a soft, adaptive midsole that molds to your foot shape, ensuring maximum comfort during long runs or walks.\n- Breathable Upper: Equipped with a lightweight, flexible knit material that enhances airflow, keeping feet cool and dry even in intense activities.\n- Durable & Supportive: Built with reinforced heel support and a sturdy outsole, offering long-lasting durability and optimal stability.\n- Superior Traction: The advanced grip outsole ensures secure footing on various surfaces, making it ideal for both running and casual wear.\n- Sleek & Stylish: Combines modern aesthetics with performance-driven features, making it perfect for athletes and everyday users alike.",
     "image": "./ultra-boost pro.png"
   },
   {
