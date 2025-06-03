@@ -1,9 +1,8 @@
 // ----- Product Mock Data -----
 const products = [
   { id: 1, name: "Air Max", price: "$120", image: "air-max.png" },
-  { id: 2, name: "Ultra boost Pro", price: "$140", image:"ultra-boost pro.png" },
-  { id: 3, name: "RS-X", price: "$100", image: "RS-X.png" },
-  { id: 4, name: "Classic", price: "$90", image: "classic.png" }
+  { id: 2, name: "RS-X", price: "$100", image: "RS-X.png" },
+  { id: 3, name: "Classic", price: "$90", image: "classic.png" }
 ];
 
 // Wait for DOM to fully load
@@ -45,16 +44,16 @@ function addToCart(productId) {
 
 // ----- New Arrivals Mock Data -----
 const newArrivals = [
-  { id: 5, name: "Urban Racer", price: "$110", image: "urban-racer.png" },
-  { id: 6, name: "Swift Glide", price: "$130", image: "swift-glide.png" },
-  { id: 7, name: "Metro Flex", price: "$120", image: "metro-flex.png" }
+  { id: 4, name: "Urban Racer", price: "$110", image: "urban-racer.png" },
+  { id: 5, name: "Swift Glide", price: "$130", image: "swift-glide.png" },
+  { id: 6, name: "Metro Flex", price: "$120", image: "metro-flex.png" }
 ];
 
 // ----- Recommended Products Mock Data -----
 const recommendedProducts = [
-  { id: 8, name: "Air Comfort Max", price: "$100", image: "air-comfort.png" },
-  { id: 9, name: "Pulse Sneakers", price: "$140", image: "pulse-sneakers.png" },
-  { id: 10, name: "Stride Runner", price: "$125", image: "stride-runner.png" }
+  { id: 7, name: "Air Comfort Max", price: "$100", image: "air-comfort.png" },
+  { id: 8, name: "Pulse Sneakers", price: "$140", image: "pulse-sneakers.png" },
+  { id: 9, name: "Stride Runner", price: "$125", image: "stride-runner.png" }
 ];
 
 // ----- Function to Render Product Cards -----
